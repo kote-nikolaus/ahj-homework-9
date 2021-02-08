@@ -1,0 +1,50 @@
+body {
+  background-color: #292F36;
+  padding: 15px 40px;
+  font-family: sans-serif;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.collapse-button {
+  width: 180px;
+  height: 45px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #F5F5F5;
+  font-weight: 700;
+  border: 0;
+}
+
+.collapse-button-animation {
+  background-color: #4ECDC4;
+}
+
+.collapse-button-animation:hover {
+  background-color: #FE5F55;
+  transition: background-color 1s;
+}
+
+.collapsible-box {
+  margin-bottom: 20px;
+  width: 500px;
+  overflow: hidden;
+  max-height: 150px;
+  transition: max-height 1s ease-out;
+}
+
+.text {
+  padding: 10px;
+  border: 2px dashed #F5F5F5;
+}
+
+.hidden {
+  max-height: 0px;
+  transition: max-height 1s ease-out;
+}
